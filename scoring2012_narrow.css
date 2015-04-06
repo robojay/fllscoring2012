@@ -1,0 +1,500 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
+#main {
+    position: absolute;
+    background-image: url('FLL2012_Score_Sheet_narrow.png');
+    background-repeat: no-repeat;
+    width: 480px;
+    height: 2715px;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+#version {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 0.4em;
+    text-decoration: underline;
+}
+
+.ScoreBox {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.YesNoBox {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    font-size: 1.25em;
+}
+
+.SelectionBox {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    font-size: 1.25em;
+}
+
+#timerText {
+    position: absolute;
+    color: red;
+    line-height: 1;
+    font-size: 10em;
+    width: 325px;
+    height: 150px;
+    text-align: left;
+    top: 10px;
+    left: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#startStopButton {
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    top: 175px;
+    left: 20px;
+    font-size: 2em;
+}
+
+#countUp {
+    position: absolute;
+    width: 110px;
+    height: 25px;
+    top: 40px;
+    left: 350px;
+    display: inline;
+    font-size: 1em;
+}
+
+#countDown {
+    position: absolute;
+    width: 110px;
+    height: 25px;
+    top: 100px;
+    left: 350px;
+    display: inline;
+    font-size: 1em;
+}
+
+#resetButton {
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    top: 175px;
+    left: 310px;
+    font-size: 2em;
+}
+
+#scoreBlock {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    color: blue;
+    font-size: 5em;
+    top: 250px;
+    left: 40px;
+}
+
+#scoreText {
+    display: inline;
+}
+
+.BoxLabel {
+    position: absolute;
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-size: 1em;
+}
+
+.BoxTitle {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.BoxItem1 {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-size: 1.5em;
+}
+
+.BoxItem2 {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    font-size: 1.5em;
+}
+
+.BoxItem3 {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    font-size: 1.5em;
+}
+
+#box1 {
+    position: absolute;
+    top: 375px;
+    left: 20px;
+    width: 440px;
+    height: 105px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#box1Label {
+    top: 35px;
+    left: -15px;
+}
+
+#yellowLoopsInBase {
+    top: 55px;
+    left: 350px;
+}
+
+
+
+#box2 {
+    position: absolute;
+    top: 505px;
+    left: 20px;
+    width: 440px;
+    height: 130px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#box2Label {
+    top: 60px;
+    left: -15px;
+}
+
+#box2Item1 {
+    width: 300px;
+}
+
+#greenBottleInBase {
+    top: 80px;
+    left: 350px;
+}
+
+#box3 {
+    position: absolute;
+    top: 660px;
+    left: 20px;
+    width: 440px;
+    height: 105px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#box3Label {
+    top: 35px;
+    left: -15px;
+}
+
+#dogInBase {
+    top: 55px;
+    left: 350px;
+}
+
+#box4 {
+    position: absolute;
+    top: 790px;
+    left: 20px;
+    width: 440px;
+    height: 155px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#box4Label {
+    top: 60px;
+    left: -15px;
+}
+
+#chairFixedInBase {
+    top: 55px;
+    left: 350px;
+}
+
+#chairFixedUnderTable {
+    top: 105px;
+    left: 350px;
+}
+
+#box5 {
+    position: absolute;
+    top: 970px;
+    left: 20px;
+    width: 440px;
+    height: 105px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#box5Label {
+    top: 35px;
+    left: -15px;
+}
+
+#flagsUp {
+    top: 55px;
+    left: 350px;
+}
+
+#box6 {
+    position: absolute;
+    top: 1100px;
+    left: 20px;
+    width: 440px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#box6Label {
+    top: 60px;
+    left: -15px;
+}
+
+#box6Item1 {
+    width: 200px;
+}
+
+#box6Item2 {
+    top: 125px;
+    width: 200px;
+}
+
+#blueQuilts {
+    top: 70px;
+    left: 350px;
+}
+
+#orangeQuilts {
+    top: 150px;
+    left: 350px;
+}
+
+#box7 {
+    position: absolute;
+    top: 1325px;
+    left: 20px;
+    width: 440px;
+    height: 155px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#box7Label {
+    top: 60px;
+    left: -15px;
+}
+
+#box7Item1 {
+    top: 100px;
+}
+
+#pointersParallel {
+    top: 100px;
+    left: 350px;
+}
+
+#box8 {
+    position: absolute;
+    top: 1505px;
+    left: 20px;
+    width: 440px;
+    height: 155px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#box8Label {
+    top: 60px;
+    left: -15px;
+}
+
+#ballsOnRacks {
+    top: 55px;
+    left: 350px;
+}
+
+#centerBall {
+    top: 105px;
+    left: 280px;
+}
+
+
+#box9 {
+    position: absolute;
+    top: 1685px;
+    left: 20px;
+    width: 440px;
+    height: 105px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#box9Label {
+    top: 35px;
+    left: -15px;
+}
+
+#plantsInGarden {
+    top: 55px;
+    left: 350px;
+}
+
+#box10 {
+    position: absolute;
+    top: 1815px;
+    left: 20px;
+    width: 440px;
+    height: 105px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#box10Label {
+    top: 35px;
+    left: -15px;
+}
+
+#stoveBurnersOff {
+    top: 55px;
+    left: 350px;
+}
+
+#box11 {
+    position: absolute;
+    top: 1945px;
+    left: 20px;
+    width: 440px;
+    height: 105px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#box11Label {
+    top: 35px;
+    left: -15px;
+}
+
+#pinsKnockedDown {
+    top: 55px;
+    left: 350px;
+}
+
+#box12 {
+    position: absolute;
+    top: 2075px;
+    left: 20px;
+    width: 440px;
+    height: 305px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#box12Label {
+    top: 60px;
+    left: -15px;
+}
+
+#box12Item1 {
+    width: 200px;
+}
+
+#robotTilted {
+    top: 85px;
+    left: 350px;
+}
+
+#box12Item2 {
+    top: 135px;
+    width: 250px;
+}
+
+#robotBalanced {
+    top: 170px;
+    left: 350px;
+}
+
+#box12Item3 {
+    top: 220px;
+    width: 250px;
+}
+
+#platformTouching {
+    top: 255px;
+    left: 350px;
+}
+
+
+#box13 {
+    position: absolute;
+    top: 2405px;
+    left: 20px;
+    width: 440px;
+    height: 105px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#box13Label {
+    top: 35px;
+    left: -15px;
+}
+
+#weightHeight {
+    top: 55px;
+    left: 280px;
+}
+
+#box14 {
+    position: absolute;
+    top: 2535px;
+    left: 20px;
+    width: 440px;
+    height: 155px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#box14Label {
+    top: 60px;
+    left: -15px;
+}
+
+#pointerMajor {
+    top: 55px;
+    left: 350px;
+}
+
+#pointerMinor {
+    top: 105px;
+    left: 350px;
+}
+
